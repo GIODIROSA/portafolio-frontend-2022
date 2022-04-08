@@ -1,0 +1,17 @@
+{
+  "profile": {
+    "rol": "Desarrollo Front End",
+    "description": "Más de 2 años de experiencia en el desarrollo web. Apasionado de las nuevas tecnologías y en especial del ecosistema de CSS y JavaScript. <br> Mi propósito, además, de ser diseñador UI/UX; es generar un código limpio y escalable en el tiempo que permita la refactorización y la optimización del mismo. Estableciendo así, por medio de librerías y framework como vue.js / react/ laravel. Propuestas profesionales que dan soluciones a los clientes y usuarios"
+  },
+  "experience": {
+    "first-job-title": "Desarrollador Front-end",
+    "first-job-date": "Julio 2021 - actualmente",
+    "first-job-description": "Celula Ripley.cl: desarrollo de landing. Refactorización de código. Mantenimiento - optimización de versiones y tecnologías. Desarrollo de mail. Implementación de tecnologías nativas: html/ css/ vanilla js. Desarrollo de cyberday/ black fridays/ navidad/ día de las madres.",
+    "second-job-title": "Desarrollador Front-end",
+    "second-job-dates": "Julio 2020 - Julio 2021",
+    "second-job-description": "Desarrollo de web-app en Laravel y Vuejs, para la rama automotriz. Teniendo proyectos como maserati - autotattersall- inchcape- iberocar. enfocados en los autos usados. Desarrollo de formulario de cotizaciones y tasaciones. Interacción de interfaz. HTML/ CSS/ JS. Dentro del ecosistema laravel. ",
+    "last-job-title": "Desarrollador Front-end",
+    "last-job-date": "Septiembre 2019 - Julio 2020",
+    "last-job-description": "Desarrollo de HTML/ CSS/ JS. Ambiente nativo. Para aplicaciones web de mygen y taag genetics en su distintas ramas y enfoques de negocio. Landing y web corporativa. Diseño Ui/UX en figma."
+  }
+}

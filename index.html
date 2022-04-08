@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/logo-formato-original.png"
+      type="image/x-icon"
+    />
+    <title>portafolio-2022-giovannidirosa</title>
+  </head>
+  <body class="dark">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img
+            id="toggle-icon"
+            class="toggle-theme__icon"
+            src="assets/img/icons/moon.svg"
+            alt="icon theme"
+          />
+          <p id="toggle-text" class="toggle-theme__text">dark mode</p>
+        </div>
+      </div>
+      <div id="flags" class="flags">
+        <div class="flags__item" data-language="es">
+          <img src="./assets/img/icons/cl.svg" alt="español chile" />
+        </div>
+        <div class="flags__item" data-language="en">
+          <img src="./assets/img/icons/gb.svg" alt="inglés británico" />
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div
+          data-color="hsl(214, 84%, 56%)"
+          class="colors__item colors__item--blue"
+        ></div>
+        <div
+          data-color="hsl(150, 84%, 56%)"
+          class="colors__item colors__item--green"
+        ></div>
+        <div
+          data-color="hsl(276, 84%, 56%)"
+          class="colors__item colors__item--purple"
+        ></div>
+        <div
+          data-color="hsl(46, 84%, 56%)"
+          class="colors__item colors__item--orange"
+        ></div>
+      </div>
+    </header>
+    <!--FINAL HEADER -->
+
+    <!-- CONTENEDOR DE CARDS -->
+    <main class="main">
+      <section class="column column--left">
+        <!-- PROFILE CARD -->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="./assets/img/retrato01.png" alt="retrato" />
+          </div>
+          <div class="card__header">
+            <h2 class="card__title no-margin">Giovanni Di Rosa</h2>
+            <p class="card__subtitle" data-section="profile" data-value="rol">
+              Desarrollo Front-end
+            </p>
+            <div class="car__body">
+              <div class="card__link">
+                <i class="fas fa-envelope icon"></i>
+                <a href="mailto:giodirosadeveloper@gmail.com">
+                  giodirosadeveloper@gmail.com
+                </a>
+              </div>
+              <div class="card__link">
+                <i class="fas fa-phone-alt icon"></i>
+                <a href="tel:+56930781873"> +56-930781873 </a>
+              </div>
+              <p
+                class="card__text"
+                data-section="profile"
+                data-value="description"
+              >
+                Más de 2 años de experiencia en el desarrollo web. Apasionado de
+                las nuevas tecnologías y en especial del ecosistema de CSS y
+                JavaScript. <br />
+                Mi propósito, además, de ser diseñador UI/UX; es generar un
+                código limpio y escalable en el tiempo que permita la
+                refactorización y la optimización del mismo. Estableciendo así,
+                por medio de librerías y framework como vuejs/ react/ laravel.
+                Propuestas profesionales que den soluciones a los clientes y
+                usuarios.
+              </p>
+            </div>
+          </div>
+        </article>
+        <!-- EXPERIENCIA -->
+        <article class="card card--experience">
+          <h2 class="card__title">Experiences</h2>
+          <!-- AGENCIA CABEZA -->
+          <div class="experience">
+            <img
+              class="experience__logo"
+              src="./assets/img/logo-cabeza.jpg"
+              alt="logo"
+            />
+            <div class="experience__info">
+              <p
+                class="experience__time"
+                data-section="experience"
+                data-value="first-job-date"
+              >
+                Jul 2021 - Current
+              </p>
+              <h3
+                class="experience__job"
+                data-section="experience"
+                data-value="first-job-title"
+              >
+                Desarrollador Front-end
+              </h3>
+              <p
+                class="experience__description"
+                data-section="experience"
+                data-value="first-job-description"
+              >
+                Celula Ripley.cl: desarrollo de landing. Refactorización de
+                código. Mantenimiento - optimización de versiones y tecnologías.
+                Desarrollo de mail. Implementación de tecnologías nativas: html/
+                css/ vanilla js. Desarrollo de cyberday/ black fridays/ navidad/
+                día de las madres.
+              </p>
+            </div>
+          </div>
+          <!-- AGENCIA DESTACADOS -->
+          <div class="experience">
+            <img
+              class="experience__logo"
+              src="./assets/img/logo-destacados.jpg"
+              alt="logo"
+            />
+            <div class="experience__info">
+              <p
+                class="experience__time"
+                data-section="experience"
+                data-value="second-job-dates"
+              >
+                Jul 2020 - Jul 2021
+              </p>
+              <h3
+                class="experience__job"
+                data-section="experience"
+                data-value="second-job-title"
+              >
+                Desarrollador Front-end
+              </h3>
+              <p
+                class="experience__description"
+                data-section="experience"
+                data-value="second-job-description"
+              >
+                Desarrollo de web-app en Laravel y Vuejs, para la rama
+                automotriz. Teniendo proyectos como maserati - autotattersall-
+                inchcape- iberocar. enfocados en los autos usados. Desarrollo de
+                formulario de cotizaciones y tasaciones. Interacción de
+                interfaz. HTML/ CSS/ JS. Dentro del ecosistema laravel.
+              </p>
+            </div>
+          </div>
+          <!-- TAAG GENETICS -->
+          <div class="experience">
+            <img
+              class="experience__logo"
+              src="./assets/img/logo-taag.jpg"
+              alt="logo"
+            />
+            <div class="experience__info">
+              <p
+                class="experience__time"
+                data-section="experience"
+                data-value="last-job-date"
+              >
+                Sept 2019 - Jul 2020
+              </p>
+              <h3
+                class="experience__job"
+                data-section="experience"
+                data-value="last-job-title"
+              >
+                Desarrollador Front-end
+              </h3>
+              <p
+                class="experience__description"
+                data-section="experience"
+                data-value="last-job-description"
+              >
+                Desarrollo de HTML/ CSS/ JS. Ambiente nativo. Para aplicaciones
+                web de mygen y taag genetics en su distintas ramas y enfoques de
+                negocio. Landing y web corporativa. Diseño Ui/UX en figma.
+              </p>
+            </div>
+          </div>
+        </article>
+        <!--FINAL EXPERIENCIA -->
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="assets/img/hoobies-catan.jpg" alt="juegos de mesa" />
+          </div>
+          <h3 class="hobbie__title">Colección de juegos de mesa</h3>
+          <p class="card__text">
+            juegos de especial manejo, grupales o de par. Juegos de roles o
+            conocimiento. Tales como: catan/ magic/ timeline entre otros.
+          </p>
+        </article>
+      </section>
+      <section class="column column--right">
+        <!-- CARD TECNOLOGICO -->
+        <article class="card">
+          <h2 class="card__title">Front end</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">2</span>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--100"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--100"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Vuej/Laravel/React</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+          </div>
+        </article>
+        <!--FINAL CARD TECNOLOGIA -->
+
+        <!-- CARD DESIGN -->
+        <article class="card">
+          <h2 class="card__title">Design UI/UX</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">10</span>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Figma</p>
+              <!-- cambiar -->
+              <div class="skills__bar skills__bar--100"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Adobe xd</p>
+              <!-- cambiar -->
+              <div class="skills__bar skills__bar--100"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Photoshop</p>
+              <!-- cambiar -->
+              <div class="skills__bar skills__bar--100"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Illustrator</p>
+              <!-- cambiar -->
+              <div class="skills__bar skills__bar--100"></div>
+            </div>
+          </div>
+        </article>
+        <!--FINAL CARD DESIGN -->
+
+        <!-- CARD APTITUDES -->
+        <article class="card">
+          <h2 class="card__title">HABILIDADES</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">10</span>
+            </div>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Equipo</p>
+              <!-- cambiar -->
+              <div class="skills__bar skills__bar--100"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Acertivo</p>
+              <!-- cambiar -->
+              <div class="skills__bar skills__bar--100"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Comunicativo</p>
+              <!-- cambiar -->
+              <div class="skills__bar skills__bar--100"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Ecuanime</p>
+              <!-- cambiar -->
+              <div class="skills__bar skills__bar--100"></div>
+            </div>
+          </div>
+        </article>
+        <!--FINAL CARD APTITUDES -->
+
+        <!-- PROJECTS CABEZA -->
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              class="card__image"
+              width="300"
+              src="./assets/img/landing-ripley.jpg"
+              alt="landing page zapatillas"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">Mundo deporte- Zapatillas</h2>
+            <p class="card__text">
+              Desarrollo de Landing, para cliente ripley.com dentro de la celula
+              de la agencia cabeza digital. Muestra de vitrina de producto en
+              producción con tecnologías nativas que contribuyen con la
+              escalabilidad y la modularización de la estructura.
+            </p>
+            <p class="card__text">
+              HTML / CSS/ JS VANILLA. Librería splide para carousel. semántica y
+              seccionada para cambios y mantención interna dependiendo de la
+              campaña que se establezca para la misma. Metadatos activados y en
+              funcionamiento. Modulo de disparo para cuando se cargue el DOM.
+              <br />
+              Se estipula Demo (vitrina), desarrollo en servidor interno.
+            </p>
+            <div class="buttons">
+              <a
+                href="https://simple.ripley.cl/minisitios/deporte/zapatillas"
+                class="button button--primary"
+                target="_blank"
+                >Demo</a
+              >
+              <a
+                href="http://minisitios-cardumen.ripley.cl.s3.amazonaws.com/2022/landings/02-febrero/22-landing-mascotas/index.html"
+                class="button button--ghost"
+                target="_blank"
+                >Desarrollo</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECTS CABEZA -->
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              class="card__image"
+              width="300"
+              src="./assets/img/landing-ripley-pets.jpg"
+              alt="landing page pets"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">Landing ripley pets</h2>
+            <p class="card__text">
+              Desarrollo de landing para la campaña representativa de Pets, en
+              ripley.com, usando una libreria externa pero con vanilla js
+              (native) y su implementación de la api de intersection observer.
+            </p>
+            <p class="card__text">
+              Dicho proyecto desarrollado con tecnologías como HTML/ CSS/ JS.
+              Planteado para ser escalable con el consumo de una API. interna
+              para los sugeridos.
+            </p>
+            <div class="buttons">
+              <a
+                href="https://simple.ripley.cl/mascotas"
+                class="button button--primary"
+                target="_blank"
+                >Demo</a
+              >
+              <a
+                href="http://minisitios-cardumen.ripley.cl.s3.amazonaws.com/2022/landings/02-febrero/22-landing-mascotas/index.html"
+                class="button button--ghost"
+                target="_blank"
+                >Desarrollo</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECTS TENDENCIAS -->
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              class="card__image"
+              width="300"
+              src="./assets/img/landing-ripley-tendencias.jpg"
+              alt="landing page zapatillas"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JavaScript</span>
+              <span class="project__tag">#Responsive</span>
+            </div>
+            <h2 class="card__title">Landing Tendencias</h2>
+            <p class="card__text">
+              ¡los 70 están de regreso en ripley! vuelven los cardigans sin
+              mangas, acolchados y sobre camisas. encuéntralos en diferentes
+              modelos, tallas y colores. No te quedes fuera de esta moda y
+              escoge tu look ideal. ¡acolchados! explorar nuestra gran variedad
+              y selección de acolchados con el más puro estilo. encuentra lo
+              mejor en moda y tendencia en ripley.com/ kv para proyecto web
+              distinto. CCS GRID se implemento.
+            </p>
+            <p class="card__text">
+              HTML / CSS/ JS VANILLA. Librería splide para carousel. semántica y
+              seccionada para cambios y mantención interna dependiendo de la
+              campaña que se establezca para la misma. Metadatos activados y en
+              funcionamiento. Modulo de disparo para cuando se cargue el DOM.
+            </p>
+            <div class="buttons">
+              <a
+                href="http://minisitios-cardumen.ripley.cl.s3.amazonaws.com/2022/landings/03-marzo/17-landing-tendencia/index.html"
+                class="button button--primary"
+                target="_blank"
+                >Demo</a
+              >
+              <a
+                href="http://minisitios-cardumen.ripley.cl.s3.amazonaws.com/2022/landings/03-marzo/17-landing-tendencia/index.html"
+                class="button button--ghost"
+                target="_blank"
+                >Desarrollo</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECTS MASERATI -->
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img
+              class="card__image"
+              width="300"
+              src="./assets/img/landing-maserati.jpg"
+              alt="landing page maserati"
+            />
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#Laravel</span>
+              <span class="project__tag">#Vuejs</span>
+            </div>
+            <h2 class="card__title">Web-app Maserati</h2>
+            <p class="card__text">
+              Desarrollo de web-app maserati santiago. Proyecto elaborado por
+              medio de framework Laravel y por parte de front vue.js por la
+              conexion native del mismo. Base de datos, de autos usados para el
+              desarrollo interno del negocio y su cotización del mismo. Un
+              proyecto premium. Libreria css bootstrap en su version 4. HTML/
+              CSS/ ECOSISTEMA VUE Y LARAVEL
+            </p>
+
+            <div class="buttons">
+              <a
+                href="https://www.maseratichile.cl/"
+                class="button button--primary"
+                target="_blank"
+                >Demo</a
+              >
+              <a
+                href="#"
+                class="button button--ghost"
+                style="pointer-events: none"
+                >Code</a
+              >
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <!--FINAL CONTENEDOR DE CARDS -->
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

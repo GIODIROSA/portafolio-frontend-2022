@@ -1,0 +1,17 @@
+{
+  "profile": {
+    "rol": "Front End Development",
+    "description": "More than 2 years of experience in web development. Passionate about new technologies and especially the CSS and JavaScript ecosystem. <br> My purpose, besides, is to be a UI/UX designer; is to generate a clean and scalable code over time that allows its refactoring and optimization. Establishing this way, through libraries and frameworks such as vue.js / react/ laravel. Professional proposals that provide solutions to customers and users"
+  },
+  "experience": {
+    "first-job-title": "Front End Development",
+    "first-job-date": "Jul 2021 - current",
+    "first-job-description": "Cell Ripley.cl: landing development. Code refactoring. Maintenance - optimization of versions and technologies. Email development. Implementation of native technologies: html/ css/ vanilla js. Development of cyberday / black fridays / christmas / mothers day.",
+    "second-job-title": "Front End Development",
+    "second-job-dates": "Jul 2020 - Jul 2021",
+    "second-job-description": "Web-app development in Laravel and Vuejs, for the automotive branch. Having projects like maserati - autotattersall- inchcape- iberocar. focused on used cars. Development of quotation and appraisal forms. interface interaction. HTML/ CSS/ JS. Within the laravel ecosystem.",
+    "last-job-title": "Front End Development",
+    "last-job-date": "Sept2019 - Jul 2020",
+    "last-job-description": "HTML/ CSS/ JS development. native environment. For web applications of mygen and taag genetics in their different branches and business approaches. Landing and corporate website. Ui/UX design in figma."
+  }
+}
